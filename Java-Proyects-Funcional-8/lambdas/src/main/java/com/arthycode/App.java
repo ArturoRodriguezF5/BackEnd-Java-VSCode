@@ -27,5 +27,7 @@ public final class App {
         })
             .forEach(x -> System.out.println(x));
 
+        System.out.println(lista);
+
     }
 }
