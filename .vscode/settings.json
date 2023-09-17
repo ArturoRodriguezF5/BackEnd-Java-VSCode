@@ -1,5 +1,7 @@
 {
     "java.compile.nullAnalysis.mode": "automatic",
     "java.configuration.updateBuildConfiguration": "interactive",
-    "java.project.sourcePaths": []
+    "java.project.sourcePaths": [
+      "Spring-Proyects/webproject/src/main/java/com/example/arthycode/springweb/webproject"
+    ]
 }
