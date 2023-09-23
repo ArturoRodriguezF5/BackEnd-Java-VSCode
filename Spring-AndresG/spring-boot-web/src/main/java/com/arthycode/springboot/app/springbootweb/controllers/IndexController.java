@@ -6,6 +6,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.arthycode.springboot.app.springbootweb.models.User;
+
 @Controller
 @RequestMapping("/app")
 public class IndexController {
@@ -17,4 +19,11 @@ public class IndexController {
     return "index";
   }
 
+  @RequestMapping("/perfil")
+  public String perfil(Model model) {
+    User usuario = new User("Arthy", "Code");
+    model.addAttribute("usuario", usuario);
+    model.addAttribute("titulo", "Perfil usuario: ".concat(usuario.getNombre()));
+    return "perfil";
+  }
 }
