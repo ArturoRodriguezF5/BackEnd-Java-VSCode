@@ -7,6 +7,7 @@ public class App {
   public static int largestNumber(String cadena) {
     int myInt = 5;
     System.out.println(((Object) cadena.charAt(2)).getClass().getSimpleName());
+    System.out.println(((Object) myInt).getClass().getSimpleName());
     return 0;
   }
 }
