@@ -8,6 +8,7 @@ public class App {
     int myInt = 5;
     System.out.println(((Object) cadena.charAt(2)).getClass().getSimpleName());
     System.out.println(((Object) myInt).getClass().getSimpleName());
+    System.out.println("Buscar como separar la cadena en numeros y letras");
     return 0;
   }
 }
