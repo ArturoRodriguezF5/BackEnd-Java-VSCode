@@ -5,10 +5,10 @@ public class App {
   }
 
   public static int largestNumber(String cadena) {
-    int myInt = 5;
-    System.out.println(((Object) cadena.charAt(2)).getClass().getSimpleName());
+    //int myInt = 5;
+    /*System.out.println(((Object) cadena.charAt(2)).getClass().getSimpleName());
     System.out.println(((Object) myInt).getClass().getSimpleName());
-    System.out.println("Buscar como separar la cadena en numeros y letras");
+    System.out.println("Buscar como separar la cadena en numeros y letras");*/
     char[] cad = cadena.toCharArray();
     String n = "";
     for(int i = 0; i < cad.length; i++) {
@@ -17,6 +17,7 @@ public class App {
       }
     }
     System.out.println(n);
+    System.out.println(((Object) n).getClass().getSimpleName());
     return 0;
   }
 }
